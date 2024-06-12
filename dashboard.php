@@ -83,7 +83,7 @@ $conn->close();
 <body>
  
 <?php include('header.php'); ?>
-<h2 align ="center">Student Dashboard</h2>
+<h2 class="slideInDown animated align ="center">Student Dashboard</h2>
 <div class="row">
     <div class="col-md-3 mb-4">
         <div class="card text-white bg-info">

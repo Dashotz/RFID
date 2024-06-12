@@ -6,12 +6,71 @@ body {
   padding: 20px;
 }
 
+h2{
+  font-size: 50px !important;
+  color: #000;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-family: New Century Schoolbook, TeX Gyre Schola, serif !important;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.slideInRight {
+  animation-name: slideInRight;
+} 
+.slideInDown {
+  animation-name: slideInDown;
+}
+.animated {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
+
+@keyframes slideInRight {
+  from {
+    transform: translate3d(100%, 0, 0);
+    visibility: visible;
+  }
+
+  to {
+    transform: translate3d(0, 0, 0);
+  }
+}
+@keyframes slideInDown {
+  from {
+    transform: translate3d(0, 100%, 0);
+    visibility: visible;
+  }
+
+  to {
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@media screen and (max-width: 900px) {
+  section{
+    margin: 10px;
+  }
+  th{
+    padding: 8px 2px;
+    font-size: 11px;
+  }
+  td{
+    padding: 8px;
+    font-size: 10px;
+  }
+  h1 {
+    font-size: 18px !important;
+  }
+}
+
 .container {
   max-width: 100%; /* Optimizes reading line length */
   margin: 0 auto; /* Centers container in the page */
   padding: 20px;
   box-shadow: 0 2px 15px rgba(0,0,0,0.1); /* Subtle shadow for depth */
-  background-color: #ffffff; /* Pure white background for sections */
+  background-color: #cae5f7; /* Pure white background for sections */
   border-radius: 8px; /* Smooths corners */
 }
 

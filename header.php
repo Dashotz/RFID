@@ -56,12 +56,12 @@
 	    }
 	  }
 ?>
-<div class="topnav" id="myTopnav">
+<div class="topnav" id="myTopnav">	
 	<a href="index.php">Students</a>
+	<a href="dashboard.php">Dashboard</a>
     <a href="ManageUsers.php">Manage Student</a>
     <a href="UsersLog.php">Student Logs</a>
-    <a href="devices.php">Teacher and Section</a>
-	<a href="dashboard.php">Dashboard</a>
+    <a href="devices.php">Teacher and Section</a>	
     <?php  
     	if (isset($_SESSION['Admin-name'])) {
     		echo '<a href="#" data-toggle="modal" data-target="#admin-account">'.$_SESSION['Admin-name'].'</a>';
