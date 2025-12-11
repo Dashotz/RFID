@@ -2,8 +2,6 @@
 
 A comprehensive web-based student attendance management system using RFID technology. This system allows educational institutions to track student attendance efficiently through RFID card scanning, providing real-time monitoring, detailed reports, and analytics.
 
-![RFID Attendance System](icons/gov.png)
-
 ## 📋 Table of Contents
 
 - [Features](#features)
